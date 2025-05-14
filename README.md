@@ -1,7 +1,7 @@
 # anki-mcp
 
 A Model Context Protocol (MCP) server for interacting with Anki flashcards via the AnkiConnect add-on.
-This server exposes all AnkiConnect actions as MCP tools, organized into logical services.
+This server exposes AnkiConnect actions as MCP tools, organized into logical services.
 
 ## Prerequisites
 
@@ -134,3 +134,9 @@ uv pip install -e .
 ```bash
 pytest
 ```
+
+
+## Todo
+
+- [ ] Finish adding all AnkiConnect tools
+
