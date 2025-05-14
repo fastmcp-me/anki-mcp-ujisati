@@ -14,7 +14,7 @@ This server exposes all AnkiConnect actions as MCP tools, organized into logical
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/anki-mcp.git
+git clone https://github.com/ujisati/anki-mcp.git
 cd anki-mcp
 
 # Install dependencies (using uv)
@@ -27,11 +27,6 @@ To run the MCP server:
 
 ```bash
 uv run anki-mcp
-```
-
-Or, if you don't have `uv` globally, but installed it in a virtual environment:
-```bash
-python -m src.anki_mcp
 ```
 
 The server will start and listen for MCP requests, typically interfacing with AnkiConnect at `http://127.0.0.1:8765`.
@@ -128,12 +123,10 @@ This MCP server provides access to Anki functionality through tools grouped by s
 To set up for development:
 
 ```bash
-# Ensure you have uv installed, or use pip with venv
-uv venv # Create a virtual environment
-source .venv/bin/activate # Activate it (on Linux/macOS)
-# .venv\Scripts\activate (on Windows)
+uv sync
+source .venv/bin/activate
 
-uv pip install -e .[dev] # Install package in editable mode with dev dependencies
+uv pip install -e .
 ```
 
 ### Running Tests
