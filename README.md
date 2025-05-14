@@ -18,6 +18,25 @@ uv run anki-mcp
 npx @modelcontextprotocol/inspector uv run anki-mcp
 ```
 
+## Config
+
+```json
+{
+    "mcpServers": {
+        "anki": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/anki-mcp",
+                "run",
+                "anki-mcp"
+            ]
+        }
+    }
+}
+```
+
+
 ## Available MCP Tools & Resources
 
 This MCP server provides access to Anki functionality through the following services:
