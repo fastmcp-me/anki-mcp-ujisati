@@ -534,7 +534,14 @@ async def delete_media_file_tool(
     return await _call("deleteMediaFile", filename=filename)
 
 
-anki_mcp = FastMCP(name="AnkiConnectMCP")
+anki_mcp = FastMCP(
+    name="AnkiConnectMCP",
+    instructions="""
+    This MCP provides a programmatic interface to Anki flashcard functionality through the AnkiConnect API.
+    It allows AI assistants to interact with Anki decks, cards, and notes without needing to understand
+    the underlying API details.
+    """
+)
 
 
 async def setup():
