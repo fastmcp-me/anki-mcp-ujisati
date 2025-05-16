@@ -2,10 +2,6 @@
 
 A Model Context Protocol (MCP) server for interacting with Anki flashcards via the AnkiConnect add-on. This server exposes AnkiConnect actions as MCP tools, organized into logical services.
 
-<a href="https://glama.ai/mcp/servers/@ujisati/anki-mcp">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ujisati/anki-mcp/badge" alt="anki-mcp MCP server" />
-</a>
-
 ## Prerequisites
 
 - Anki desktop application
