@@ -1,3 +1,10 @@
+[![Add to Cursor](https://fastmcp.me/badges/cursor_dark.svg)](https://fastmcp.me/MCP/Details/1128/anki)
+[![Add to VS Code](https://fastmcp.me/badges/vscode_dark.svg)](https://fastmcp.me/MCP/Details/1128/anki)
+[![Add to Claude](https://fastmcp.me/badges/claude_dark.svg)](https://fastmcp.me/MCP/Details/1128/anki)
+[![Add to ChatGPT](https://fastmcp.me/badges/chatgpt_dark.svg)](https://fastmcp.me/MCP/Details/1128/anki)
+[![Add to Codex](https://fastmcp.me/badges/codex_dark.svg)](https://fastmcp.me/MCP/Details/1128/anki)
+[![Add to Gemini](https://fastmcp.me/badges/gemini_dark.svg)](https://fastmcp.me/MCP/Details/1128/anki)
+
 # anki-mcp
 
 A Model Context Protocol (MCP) server for interacting with Anki flashcards via the AnkiConnect add-on. This server exposes AnkiConnect actions as MCP tools, organized into logical services.
